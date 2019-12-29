@@ -57,9 +57,6 @@ displayQuestion = questions => {
             <h2 class="text-center">${question.question}</h2>
         `;
 
-        function random(min, max) {
-            return Math.round(min + Math.random() * (max - min))
-        };
         // Generating the HTML for possible answers
         const answerDiv = document.createElement('div');
         answerDiv.classList.add('questions', 'row', 'justify-content-around', 'mt-4');

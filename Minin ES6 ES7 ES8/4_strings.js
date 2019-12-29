@@ -1,13 +1,13 @@
-// const title = "New Project";
-// const isVisible = () => Math.random() > 0.5;
-// const template = `
-// ${isVisible() ? `<p>Visible</p>` : ""}
-//   <div id="title" style="color: blue">
-//     ${title}
-//   </div>
-// `;
+const title = "New Project";
+const isVisible = () => Math.random() > 0.5;
+const template = `
+${isVisible() ? `<p>Visible</p>` : ""}
+  <div id="title" style="color: blue">
+    ${title}
+  </div>
+`;
 
-// console.log(template);
+console.log(template);
 
 // Methods
 const str = "  *Hello* ";
